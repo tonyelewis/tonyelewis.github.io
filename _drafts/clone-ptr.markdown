@@ -5,6 +5,13 @@ date:   2016-11-14 17:32:44 +0000
 categories: jekyll update
 ---
 
+http://stackoverflow.com/questions/4069865/clone-ptr-implementation-error
+http://www.codeproject.com/Articles/11399/Clone-Smart-Pointer-clone-ptr
+https://www.codeproject.com/script/Membership/LogOn.aspx?rp=http%3a%2f%2fwww.codeproject.com%2fArticles%2f11399%2fClone-Smart-Pointer-clone-ptr&download=true
+http://codereview.stackexchange.com/questions/92593/a-clone-ptrt-that-does-not-require-t-to-have-a-clone-method
+http://www.boost.org/doc/libs/1_48_0/doc/html/move/implementing_movable_classes.html
+http://www.codeguru.com/cpp/cpp/algorithms/general/article.php/c10407/Clone-Smart-Pointer-cloneptr.htm
+
 I want to argue for better C++ support for a clean, safe and easy way to get normal copy-semantics for polymorphic base classes (probably requiring some dynamic copy-construction ("clone()") boilerplate code for the polymorphic classes). In particular, I suggest a std::clone_ptr<T>, which is like std::unique_ptr<T> except that it requires T be cloneable and exploits that to provide normal copy semantics.
 
 My Questions
