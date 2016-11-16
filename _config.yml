@@ -27,7 +27,7 @@ twitter_username: tony_e_lewis
 github_username:  tonyelewis
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
