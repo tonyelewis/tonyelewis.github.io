@@ -5,12 +5,12 @@ date:   2016-11-14 17:32:44 +0000
 categories: jekyll update
 ---
 
-http://stackoverflow.com/questions/4069865/clone-ptr-implementation-error
-http://www.codeproject.com/Articles/11399/Clone-Smart-Pointer-clone-ptr
-https://www.codeproject.com/script/Membership/LogOn.aspx?rp=http%3a%2f%2fwww.codeproject.com%2fArticles%2f11399%2fClone-Smart-Pointer-clone-ptr&download=true
-http://codereview.stackexchange.com/questions/92593/a-clone-ptrt-that-does-not-require-t-to-have-a-clone-method
-http://www.boost.org/doc/libs/1_48_0/doc/html/move/implementing_movable_classes.html
-http://www.codeguru.com/cpp/cpp/algorithms/general/article.php/c10407/Clone-Smart-Pointer-cloneptr.htm
+ * [link](http://stackoverflow.com/questions/4069865/clone-ptr-implementation-error)
+ * [link](http://www.codeproject.com/Articles/11399/Clone-Smart-Pointer-clone-ptr)
+ * [link](https://www.codeproject.com/script/Membership/LogOn.aspx?rp=http%3a%2f%2fwww.codeproject.com%2fArticles%2f11399%2fClone-Smart-Pointer-clone-ptr&download=true)
+ * [link](http://codereview.stackexchange.com/questions/92593/a-clone-ptrt-that-does-not-require-t-to-have-a-clone-method)
+ * [link](http://www.boost.org/doc/libs/1_48_0/doc/html/move/implementing_movable_classes.html)
+ * [link](http://www.codeguru.com/cpp/cpp/algorithms/general/article.php/c10407/Clone-Smart-Pointer-cloneptr.htm)
 
 I want to argue for better C++ support for a clean, safe and easy way to get normal copy-semantics for polymorphic base classes (probably requiring some dynamic copy-construction ("clone()") boilerplate code for the polymorphic classes). In particular, I suggest a std::clone_ptr<T>, which is like std::unique_ptr<T> except that it requires T be cloneable and exploits that to provide normal copy semantics.
 
@@ -111,7 +111,7 @@ I'll ensure my classes have necessary boiler plate to do dynamic copy-constructi
 
 &nbsp;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
@@ -129,4 +129,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
