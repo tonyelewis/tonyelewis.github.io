@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
+layout   : page
 permalink: /about/
+title    : About
 ---
 
 <style type="text/css">
@@ -11,20 +11,25 @@ permalink: /about/
 }
 </style>
 
-Contributions to open-source software projects
-============================================
+I'm a C++ developer based in London, UK.
+
+Open-source activity
+====================
+
+**Contributions to open-source software projects**
 
   * **[cath-tools](https://github.com/UCLOrengoGroup/cath-tools)**
     <span class="tony">
-      Protein structure comparison tools such as SSAP and SNAP
+      Protein structure comparison tools such as SSAP and SNAP.<br>
+      (most code developed by me)
     </span>
   * **[clone-tools](https://github.com/tonyelewis/clone-tools)**
     <span class="tony">
-      A small, header-only C++ library to make it easy to clone (ie copy polymorphic types)
+      A small, header-only C++ library to make it easy to clone (ie copy polymorphic types).<br>
+      (my library)
     </span>
 
-Engagement with open-source software
-====================================
+**Engagement with open-source software**
 
   * **[Boost C++ libraries](http://www.boost.org)**
     <span class="tony">
