@@ -114,6 +114,7 @@ vector<int> a = { 1, 2, 3 };
 
 ...you still get the same surprising result because {% ihighlight c++ %}size(){% endihighlight %} returns an unsigned type. And you'll encounter these unsigneds are all over the standard library and even in the language itself (eg {% ihighlight c++ %}alignof(){% endihighlight %}, {% ihighlight c++ %}sizeof(){% endihighlight %} and {% ihighlight c++ %}sizeof...(){% endihighlight %}).
 
+You may have your own opinions about whether you like that fact. But it is a fact and it's a fact I can't see changing any time soon.
 
 So if you want to purge the {% ihighlight c++ %}unsigned{% endihighlight %} keyword from your code, be my guest. But let's acknowledge that that won't actually solve the problem, it'll only sweep some manifestations of it under the carpet.
 
